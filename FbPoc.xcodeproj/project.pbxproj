@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58C3BDD26C28A5E057E2EDF0 /* Pods_FbPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88E136F832B43E7AC7B85FB /* Pods_FbPoc.framework */; };
 		59E691A51EE5ECF800B92852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E691A41EE5ECF800B92852 /* AppDelegate.swift */; };
 		59E691A71EE5ECF800B92852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E691A61EE5ECF800B92852 /* ViewController.swift */; };
 		59E691AA1EE5ECF800B92852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E691A81EE5ECF800B92852 /* Main.storyboard */; };
 		59E691AC1EE5ECF800B92852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E691AB1EE5ECF800B92852 /* Assets.xcassets */; };
 		59E691AF1EE5ECF800B92852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E691AD1EE5ECF800B92852 /* LaunchScreen.storyboard */; };
+		59E691B71EE5F02F00B92852 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E691B61EE5F02F00B92852 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2AB6E2B99F283DA8E50C8F /* Pods-FbPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbPoc.release.xcconfig"; path = "Pods/Target Support Files/Pods-FbPoc/Pods-FbPoc.release.xcconfig"; sourceTree = "<group>"; };
+		521FE3D4DA0FB78BDF523B1A /* Pods-FbPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbPoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FbPoc/Pods-FbPoc.debug.xcconfig"; sourceTree = "<group>"; };
 		59E691A11EE5ECF800B92852 /* FbPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E691A41EE5ECF800B92852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E691A61EE5ECF800B92852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,9 @@
 		59E691AB1EE5ECF800B92852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E691AE1EE5ECF800B92852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E691B01EE5ECF800B92852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E691B61EE5F02F00B92852 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59E691B81EE83C8800B92852 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		C88E136F832B43E7AC7B85FB /* Pods_FbPoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FbPoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C3BDD26C28A5E057E2EDF0 /* Pods_FbPoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		436ABFA4E939BDCE2D08EABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88E136F832B43E7AC7B85FB /* Pods_FbPoc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59E691981EE5ECF800B92852 = {
 			isa = PBXGroup;
 			children = (
+				59E691B61EE5F02F00B92852 /* Default-568h@2x.png */,
 				59E691A31EE5ECF800B92852 /* FbPoc */,
 				59E691A21EE5ECF800B92852 /* Products */,
+				F3C112DE7E5C5F05ECFA3A38 /* Pods */,
+				436ABFA4E939BDCE2D08EABC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +79,18 @@
 				59E691AB1EE5ECF800B92852 /* Assets.xcassets */,
 				59E691AD1EE5ECF800B92852 /* LaunchScreen.storyboard */,
 				59E691B01EE5ECF800B92852 /* Info.plist */,
+				59E691B81EE83C8800B92852 /* Bridging-Header.h */,
 			);
 			path = FbPoc;
+			sourceTree = "<group>";
+		};
+		F3C112DE7E5C5F05ECFA3A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				521FE3D4DA0FB78BDF523B1A /* Pods-FbPoc.debug.xcconfig */,
+				0B2AB6E2B99F283DA8E50C8F /* Pods-FbPoc.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59E691B31EE5ECF800B92852 /* Build configuration list for PBXNativeTarget "FbPoc" */;
 			buildPhases = (
+				180C26EFB8CDD45C21D370EA /* [CP] Check Pods Manifest.lock */,
 				59E6919D1EE5ECF800B92852 /* Sources */,
 				59E6919E1EE5ECF800B92852 /* Frameworks */,
 				59E6919F1EE5ECF800B92852 /* Resources */,
+				70A2ED94B9C9000F682891E6 /* [CP] Embed Pods Frameworks */,
+				9102B118FE1345AF8D6E354C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +157,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E691AF1EE5ECF800B92852 /* LaunchScreen.storyboard in Resources */,
+				59E691B71EE5F02F00B92852 /* Default-568h@2x.png in Resources */,
 				59E691AC1EE5ECF800B92852 /* Assets.xcassets in Resources */,
 				59E691AA1EE5ECF800B92852 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		180C26EFB8CDD45C21D370EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70A2ED94B9C9000F682891E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FbPoc/Pods-FbPoc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9102B118FE1345AF8D6E354C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FbPoc/Pods-FbPoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59E6919D1EE5ECF800B92852 /* Sources */ = {
@@ -257,6 +338,7 @@
 		};
 		59E691B41EE5ECF800B92852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521FE3D4DA0FB78BDF523B1A /* Pods-FbPoc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G78T3DJN9Z;
@@ -264,12 +346,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.acme.FbPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FbPoc/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		59E691B51EE5ECF800B92852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2AB6E2B99F283DA8E50C8F /* Pods-FbPoc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G78T3DJN9Z;
@@ -277,6 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.acme.FbPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FbPoc/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +385,7 @@
 				59E691B51EE5ECF800B92852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
